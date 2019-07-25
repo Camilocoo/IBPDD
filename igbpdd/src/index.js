@@ -6,16 +6,19 @@ import Home from './pages/App';
 import Navbar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
+import Breakpoint, { BreakpointProvider } from 'react-socks';
 
 
 const routing = (
 <React.Fragment>
+<BreakpointProvider>
     <Navbar/>
     <Router>
         <div>
         <Route path="/" component={Home} />
         </div>
     </Router>
+ </BreakpointProvider>
   </React.Fragment>
 )
 
