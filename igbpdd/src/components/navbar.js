@@ -13,7 +13,7 @@ class Navbar extends React.Component {
     return(
         <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <a className="navbar-brand" href="#">Navbar</a>
+                    <img src="https://ucarecdn.com/0be2fed5-afde-467b-a169-b24e0e985b9f/-/resize/200x/" className="img-fluid text-center" alt="Responsive image"/>
                     <button
                         className="navbar-toggler"
                         type="button"
