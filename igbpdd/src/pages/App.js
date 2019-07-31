@@ -44,7 +44,9 @@ function Home() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col"  style={backgroundImage}>
+                    <div className="container">
                         <Breakpoint small down>
+
                             <div style={bienvenidos}>
                                 Bienvenidos
                             </div>
@@ -68,7 +70,7 @@ function Home() {
                                  "LES DAMOS LA MAS CORDIAL BIENVENIDA"
                             </div>
                         </Breakpoint>
-
+                        </div>
                     </div>
                 </div>
             </div>
